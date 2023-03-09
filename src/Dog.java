@@ -1,5 +1,5 @@
 public class Dog extends Animal{
-    private static int count = 0;
+    private static int count;
     public Dog(String name, int runDistance, int swimDistance) {
         super(name, runDistance, swimDistance);
         count++;

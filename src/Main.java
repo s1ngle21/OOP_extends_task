@@ -4,15 +4,11 @@ public class Main {
         Dog dog = new Dog("Бобік", 500, 10);
         Cat cat = new Cat("Барсік", 200, 0);
 
-        dog.run(150);
-        dog.swim(4);
+        dog.run(500);
+        dog.swim(10);
 
-        cat.run(300);
-        cat.swim(10);
-
-        Dog dog2 = new Dog("Айко", 500, 10);
-        dog2.run(200);
-        dog2.swim(15);
+        cat.run(200);
+        cat.swim(0);
 
 
         if (Animal.getCount()== 1){
